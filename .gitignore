@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+*.nbc
+*.nbi
+.venv/
+.ipynb_checkpoints/
+results/models/
+data/real/*
+!data/real/.gitkeep
+*.zip
+*.inspect.ndjson
+results/tables/tablas_para_excel.json
+results/real/tables/tablas_excel.json
+.DS_Store

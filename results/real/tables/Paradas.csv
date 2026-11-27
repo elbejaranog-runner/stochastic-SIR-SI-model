@@ -1,0 +1,7 @@
+metodo,inicializacion,estado,convergencia,terminacion,segundos
+TRF,1,completado,True,`xtol` termination condition is satisfied.,1.0532249999996566
+SGD,1,completado,False,Presupuesto SGD,36.89435819999926
+PINN,1,interrumpido,False,L-BFGS: PINN fuera del dominio de entrenamiento; se restaura el mejor punto factible de entrenamiento,26.54623250000077
+TRF,2,completado,True,Both `ftol` and `xtol` termination conditions are satisfied.,0.4132336999973631
+SGD,2,completado,False,Presupuesto SGD,46.3688826999969
+PINN,2,interrumpido,False,L-BFGS: PINN fuera del dominio de entrenamiento; se restaura el mejor punto factible de entrenamiento,24.681482399999368

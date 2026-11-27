@@ -1,0 +1,11 @@
+Elemento,Configuración
+Serie,156 semanas continuas; 1092 días; una sola condición inicial
+TRF,32 trayectorias; h=.25 días; hasta 400 evaluaciones
+SGD,Lotes de 13 semanas; 12 lotes por época; hasta 4000 actualizaciones
+SGD: tasa,.0003/(1+paso/500)^.6; clipping=10
+PINN,"2×32 tanh; Adam 2000 pasos, lr=.003; L-BFGS hasta 2000 iteraciones"
+PINN: lotes,13 semanas; 32 transiciones; 166.67 épocas equivalentes de datos en Adam
+Pérdida PINN,100 Ld + .01 LEDE + 100 Lrec
+μv; ρ; σh; σv,.10; .20; .12; .15 (supuestos; nivel alto del estudio controlado)
+X0,"[0.5, 8.693205197635189e-05, 0.49991306794802365, 0.9998261661195191, 0.00017383388048083736]"
+Selección de inicio,Menor criterio de entrenamiento entre dos inicios; no se usan valores verdaderos

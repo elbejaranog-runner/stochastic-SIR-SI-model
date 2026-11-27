@@ -1,0 +1,14 @@
+{
+  "csv_sha256": "80cd64a4e457af3c8b18940e4029760b8a8ca3f571f1e4bff721e8053a3e7bad",
+  "dane_sha256": "afd5befe9dfc49fd83c5f7b592fbd8eee9e4519736a82129db876a052e9b91bf",
+  "poblacion_fuente": "https://www.dane.gov.co/files/censo2018/proyecciones-de-poblacion/Departamental/PPED-AreaDep-2018-2050_VP.xlsx",
+  "version_DANE": "8 agosto 2025, CNPV 2018 actualizado",
+  "territorio": "Departamento de ocurrencia 76, incluye Cali y Buenaventura",
+  "evento": 210,
+  "definicion": "Probables y confirmados; excluye ajustes 6 y D; semana por inicio de sintomas verificada contra ano/semana",
+  "populations": {
+    "2022": 4658811,
+    "2023": 4673395,
+    "2024": 4693432
+  }
+}

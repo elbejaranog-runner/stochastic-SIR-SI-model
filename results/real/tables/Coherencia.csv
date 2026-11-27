@@ -1,0 +1,4 @@
+Método,Rh decrece,RMSE reintegrado,Estado
+TRF,False,909.681147625242,completado
+SGD,False,964.9002430674929,completado
+PINN,True,1191.8730884198058,interrumpido

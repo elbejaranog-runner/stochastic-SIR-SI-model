@@ -1,0 +1,72 @@
+{
+  "hiperparametros": {
+    "rho": 0.2,
+    "S0": 0.5,
+    "mu": 0.1,
+    "sigma_h": 0.12,
+    "sigma_v": 0.15,
+    "h": 0.25,
+    "M": 32,
+    "bank_seed": 11272026,
+    "batch": 13,
+    "sgd_steps": 4000,
+    "sgd_lr": 0.0003,
+    "sgd_decay": 500,
+    "sgd_power": 0.6,
+    "clip": 10.0,
+    "checks_every": 20,
+    "grad_tol": 1e-05,
+    "max_backtracks": 25,
+    "adam_steps": 2000,
+    "adam_lr": 0.003,
+    "adam_beta1": 0.9,
+    "adam_beta2": 0.999,
+    "adam_eps": 1e-08,
+    "trans_batch": 32,
+    "lbfgs_max_iter": 2000,
+    "lbfgs_max_eval": 2500,
+    "lbfgs_history": 50,
+    "lbfgs_grad_tol": 1e-07,
+    "lbfgs_change_tol": 1e-10,
+    "data_weight": 100.0,
+    "ede_weight": 0.01,
+    "recovery_weight": 100.0,
+    "state_min": 1e-12,
+    "variance_min": 1e-30,
+    "network_width": 32,
+    "network_layers": 2,
+    "pinn_dt": 1.0,
+    "trf_max_nfev": 400,
+    "trf_ftol": 1e-09,
+    "trf_xtol": 1e-09,
+    "trf_gtol": 1e-07
+  },
+  "estados_iniciales": [
+    0.5,
+    8.693205197635189e-05,
+    0.49991306794802365,
+    0.9998261661195191,
+    0.00017383388048083736
+  ],
+  "inicializaciones": [
+    [
+      0.15,
+      0.2,
+      0.14285714285714285
+    ],
+    [
+      0.25,
+      0.12,
+      0.2
+    ]
+  ],
+  "semillas": [
+    90101,
+    90102
+  ],
+  "semanas": 156,
+  "dias": 1092,
+  "sigma_referencia": "alto",
+  "datos_sha256": "ecd3823bea419cbbeb72b7e7c3ea91b127d457366135b450319e11f85c3ec0a7",
+  "interpretacion": "Ajuste retrospectivo de las 156 semanas; sin reserva temporal"
+}
